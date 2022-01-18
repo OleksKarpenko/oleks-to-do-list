@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import ToDo from "./ToDoList/ToDoList";
 import AddForm from "./ToDoList/AddForm";
-import ListFilter from "./ToDoList/ListFilter"
+import ListFilter from "./ToDoList/ListFilter";
 
 import './ToDoList/style.css'
 
@@ -29,7 +29,7 @@ const baseItemsList = [
     },
 ];
 
-const NewApp = () => {
+const App = () => {
     let [itemsList, setItemsList] = useState(baseItemsList);
     const [filterItemsList, setFilterItemsList] = useState(itemsList);
 
@@ -81,4 +81,4 @@ const NewApp = () => {
     );
 }
 
-export default NewApp;
+export default App;
