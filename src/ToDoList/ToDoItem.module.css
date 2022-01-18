@@ -1,0 +1,22 @@
+.expense-item__description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 15px;
+  background: bisque;
+  border-radius: 15px;
+}
+
+.expense-item__description input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+.expense-item__description label {
+  color: green;
+}
+
+.remove-btn {
+  background: red;
+  color: #fff;
+}
