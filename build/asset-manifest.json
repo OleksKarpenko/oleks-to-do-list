@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/oleks-to-do-list/static/css/main.87362276.css",
+    "main.js": "/oleks-to-do-list/static/js/main.2146c951.js",
+    "index.html": "/oleks-to-do-list/index.html",
+    "main.87362276.css.map": "/oleks-to-do-list/static/css/main.87362276.css.map",
+    "main.2146c951.js.map": "/oleks-to-do-list/static/js/main.2146c951.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87362276.css",
+    "static/js/main.2146c951.js"
+  ]
+}
